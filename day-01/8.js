@@ -1,21 +1,19 @@
-// belum
+// done
 function deretNegation(k) {
-    var result = 0;
-    
-    for(var i = 1; i <= k; i++) {
-        var temp = i;
+    let result = 0;
+    let temp = 1;
 
-        if(temp % 2 === 1) {
-            if(temp != 1) {
-                temp = i + 1;
-            }
-            result = temp * -1;
-        } else {
-            temp -= 1;
-            result = temp;
+    for (let i = 1; i <= k; i++) {
+        if (i % 2 !== 0) {
+            result += temp * -1;
+            console.log(result);
         }
-        console.log(result);
+        else {
+            result += temp;
+            console.log(result);
+        }
+        temp ++;
     }
 }
 
-deretNegation(25)
+deretNegation(25);

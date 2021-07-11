@@ -11,3 +11,4 @@ function factorial(n) {
 }
 
 factorial(4);
+factorial(6);

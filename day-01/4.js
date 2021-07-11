@@ -1,4 +1,4 @@
-// not sure
+// done
 function howManyWords(s) {
     var count = 0;
     if(s[0] != null && s[0] != ' ') {
@@ -12,4 +12,4 @@ function howManyWords(s) {
     return console.log(count);
 }
 
-howManyWords(" aku suka javascript fullstack  ");
+howManyWords(" aku suka javascript fullstack  lho ");

@@ -1,4 +1,4 @@
-// not sure
+// done
 function howManyFrogJump(x, y, k) {
     var count = 0;
     for(i = x; i <= y; i++) {

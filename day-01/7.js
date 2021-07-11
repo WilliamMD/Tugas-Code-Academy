@@ -1,13 +1,16 @@
-// belum
+// done
 function deretSatu(k) {
-    var result = [];
-    for(var i = 0; i < k; i++) {
-        for(var j = 0; j < k[i]; j++) {
-            result.push(1);
-            console.log(result);
+    let result = '';
+    for(let i = 0; i < k; i++) {
+        for(let j = 0; j < k; j++) {
+            if(j <= i) {
+                result += '1';
+            }
         }
+        result += ' ';
     }
-    return console.log(result);
+    console.log(result);
 }
 
 deretSatu(5);
+deretSatu(10);

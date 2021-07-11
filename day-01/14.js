@@ -6,21 +6,25 @@ function segitiga(n, posisi) {
     {
         for(var i = 0; i < n; i++) {
             for(var j = 0; j <= i; j++) {
-                bintang += ("* ");
+                bintang += ("*");
             }
             bintang += ("\n")
         }
     } else if(posisi === "atas") {
-        for(var i = 0; i < n; i++) {
-            for(var j = n; j > i; j--) {
-                bintang += ("* ");
+        for (let i = 0; i < n; i++) {
+            for(var j = 0; j < i; j++) {
+                bintang += (" ");
             }
-            bintang += ("\n")
+            for (let k = i; k <n; k++) {
+                bintang += ("*");
+            }
+            bintang += ('\n');
         }
     }
     
-    return console.log(bintang);
+    return process.stdout.write(bintang);
 }
 
+segitiga(5, "bawah");
+console.log("\n");
 segitiga(5, "atas");
- 

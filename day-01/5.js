@@ -5,6 +5,7 @@ function cariKata(word, keyword) {
     for(var i = 0; i < word.length; i++) {
         if(word[i] == keyword) {
             found = true;
+            return console.log(found);
         }
     }
     return console.log(found);

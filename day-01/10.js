@@ -14,4 +14,5 @@ function isPalindrome(s) {
     return console.log(flag);
 }
 
+isPalindrome('Kasur ini bagus');
 isPalindrome('Kasur ini ruSak');

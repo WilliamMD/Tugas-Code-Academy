@@ -12,4 +12,4 @@ function showGenap(n) {
     console.log(genap);
 }
 
-showGenap(234567);
+showGenap(2345678);

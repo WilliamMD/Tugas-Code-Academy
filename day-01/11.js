@@ -7,3 +7,4 @@ function swap(a, b) {
 }
 
 swap(9, 5);
+swap(103, 23);
